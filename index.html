@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galactic Archive Terminal</title>
+    <meta
+      name="description"
+      content="A campaign archive for Scum and Villainy, styled as a futuristic terminal interface."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="boot-screen" id="bootScreen" aria-live="polite">
+      <div class="boot-panel">
+        <p class="boot-line">Initializing Galactic Archive...</p>
+        <p class="boot-line">Connecting...</p>
+        <p class="boot-line">Loading star charts...</p>
+        <p class="boot-line">Decrypting campaign records...</p>
+        <p class="boot-line boot-line-final">Access Granted.</p>
+      </div>
+    </div>
+
+    <main class="archive-shell" id="archiveShell">
+      <section class="access-granted-panel">
+        <p class="eyebrow">GALACTIC ARCHIVE TERMINAL</p>
+        <h2>Archive access granted.</h2>
+        <p>
+          The campaign records are now available. Proceed to the archive core to
+          navigate crew, missions, lore, planets, factions, ships, NPCs,
+          timeline, and resources.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="dashboard.html">Enter Archive</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
