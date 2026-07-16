@@ -256,6 +256,10 @@ h3 {
   gap: 1rem;
 }
 
+.info-grid.full-width-grid {
+  grid-template-columns: 1fr;
+}
+
 .info-card {
   padding: 1.25rem;
 }
